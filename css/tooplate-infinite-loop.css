@@ -25,7 +25,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #d40;
+  color: #5dc1d3;
 }
 
 a:focus {
@@ -263,6 +263,7 @@ blockquote {
 .tm-icon {
   display: block;
   color: #5dc1d3;
+  font-size: 50px;
 }
 
 .tm-continue {
