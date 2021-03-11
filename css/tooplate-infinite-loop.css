@@ -147,12 +147,20 @@ blockquote {
 
 #infinite {
   background-color: #222;
-  background-image: url(../img/Team.jpg);
+  background-image: url(../img/TeamOpaque.jpg);
 
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
   position: relative;
+}
+
+.backTitle {
+  background-image: url(../img/logo.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
 }
 
 @media (min-height: 600px) and (min-width: 1920px) {
@@ -206,6 +214,7 @@ blockquote {
 .tm-hero-subtitle {
   text-shadow: 2px 2px 2px #333;
   color: #5dc1d3;
+  font-size: 28px;
 }
 
 .tm-intro-next {
