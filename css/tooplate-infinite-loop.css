@@ -25,7 +25,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #5dc1d3;
+  color: #d40;
 }
 
 a:focus {
@@ -125,13 +125,13 @@ blockquote {
 }
 
 .navbar-toggler {
-  border: 1px solid white;
+  border: 1px solid #5dc1d3;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .navbar-toggler-icon {
-  color: white;
+  color: #5dc1d3;
   padding-top: 6px;
 }
 
@@ -161,6 +161,17 @@ blockquote {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+}
+
+.backLogo {
+  background-image: url(../img/logo.png);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.social {
+  font-size: 33px;
 }
 
 @media (min-height: 600px) and (min-width: 1920px) {
@@ -292,6 +303,10 @@ blockquote {
 @media (max-width: 991px) {
   #testimonials {
     background-image: url(../img/Team.jpg);
+  }
+  .backTitle {
+    background-size: 90%;
+    height: 30vh;
   }
 }
 
@@ -528,7 +543,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/yoga.jpg);
+  background-image: url(../img/footOpaque.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
@@ -684,13 +699,13 @@ p {
   }
 
   .navbar-collapse {
-    background-color: rgb(255, 255, 255);
+    background-color: #555;
     padding: 10px;
     border-radius: 3px;
   }
 
   .navbar-collapse .nav-link {
-    color: #707070;
+    color: #5dc1d3;
     padding-right: 20px;
   }
 }
