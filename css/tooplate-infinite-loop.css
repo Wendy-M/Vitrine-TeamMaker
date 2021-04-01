@@ -308,6 +308,11 @@ blockquote {
     background-size: 90%;
     height: 30vh;
   }
+
+  .backLogo {
+    height: 24vh;
+    background-position: center;
+  }
 }
 
 .tm-testimonials-content {
