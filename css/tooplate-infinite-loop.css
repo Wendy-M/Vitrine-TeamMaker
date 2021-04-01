@@ -218,6 +218,10 @@ blockquote {
   justify-content: center;
 }
 
+.centerRow {
+  justify-content: center;
+}
+
 .tm-hero-text-container-inner {
   margin-top: -90px;
 }
@@ -232,6 +236,33 @@ blockquote {
   text-shadow: 2px 2px 2px #333;
   color: #5dc1d3;
   font-size: 28px;
+}
+.tm-hero-form {
+  color: #555;
+  font-size: 28px;
+}
+
+.bgWhite {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+}
+
+.inputEmailForm {
+  border-radius: 10px;
+  color: rgba(20, 70, 80, 0.2);
+  text-align: center;
+}
+.inputButtonForm {
+  border-radius: 10px;
+  background-color: #5dc1d3;
+  color: white;
+  margin-top: 2%;
+}
+.inputButtonForm:hover {
+  border-radius: 10px;
+  background-color: #555;
+  color: white;
 }
 
 .tm-intro-next {
