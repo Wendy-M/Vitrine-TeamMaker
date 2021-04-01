@@ -255,12 +255,14 @@ blockquote {
   border-radius: 10px;
   color: rgba(20, 70, 80, 0.2);
   text-align: center;
+  border-width: 0px;
 }
 .inputButtonForm {
   border-radius: 10px;
   background-color: #5dc1d3;
   color: white;
   margin-top: 2%;
+  border-width: 0px;
 }
 .inputButtonForm:hover {
   border-radius: 10px;
